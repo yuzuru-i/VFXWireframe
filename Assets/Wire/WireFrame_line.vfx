@@ -17,9 +17,9 @@ MonoBehaviour:
   categories: []
   uiBounds:
     serializedVersion: 2
-    x: -67
+    x: -66
     y: -270
-    width: 1433
+    width: 1432
     height: 1389
 --- !u!114 &114350483966674976
 MonoBehaviour:
@@ -547,7 +547,7 @@ MonoBehaviour:
       slotIndex: 0
   m_OutputFlowSlot:
   - link: []
-  blendMode: 1
+  blendMode: 0
   useAlphaClipping: 0
   generateMotionVector: 0
   excludeFromTAA: 0
@@ -1383,7 +1383,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":1.0,"y":1.0,"z":1.0}'
+      m_SerializableObject: '{"x":5.986289024353027,"y":0.0,"z":0.0}'
     m_Space: 2147483647
   m_Property:
     name: Color
