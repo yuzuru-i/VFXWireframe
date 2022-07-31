@@ -416,8 +416,8 @@ GameObject:
   - component: {fileID: 1972716050}
   - component: {fileID: 1972716049}
   - component: {fileID: 1972716048}
-  - component: {fileID: 1972716047}
   - component: {fileID: 1972716051}
+  - component: {fileID: 1972716052}
   m_Layer: 0
   m_Name: Visual Effect
   m_TagString: Untagged
@@ -425,18 +425,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1972716047
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1972716046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a768b06898b90459592674a2fec563f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!73398921 &1972716048
 VFXRenderer:
   serializedVersion: 1
@@ -485,7 +473,7 @@ VisualEffect:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1972716046}
   m_Enabled: 1
-  m_Asset: {fileID: 8926484042661614526, guid: 46d3ef7e038f6439fb27b8704c05ed69, type: 3}
+  m_Asset: {fileID: 8926484042661614526, guid: a9ae5ad72378d4097bb27af326769958, type: 3}
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
   m_StartSeed: 0
@@ -537,3 +525,15 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1972716046}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1972716052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972716046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcc1bf8854a974d3fb57f0aed4fd299e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
